@@ -1,0 +1,29 @@
+-- xfade. orbit name is argument.
+
+d1 $ s "hh*16?"
+
+xfade 1 $ s  "909*16?"
+
+-- djf. lpf/hpf with 0-1 argument.
+
+d1 $ s "hh*16?" # djf sine
+
+-- hbrick. spectral high pass with 0-1 argument.
+
+d1 $ s "hh*16?" # hbrick sine
+
+-- lbrick. spectral low pass with 0-1 argument.
+
+d1 $ s "hh*16?" # lbrick sine
+
+-- shape. parametric amplifier with 0-1 argument.
+
+d1 $ s "hh*16?" # shape sine
+
+-- crush. bitcrush with 1-16 argument
+
+d1 $ s "wobble" # crush "[2 | 16]"
+
+-- squiz. weird pitchshifter with arguments in multiples of two.
+
+d1 $ s "wobble" # squiz "[2 | 16]"
