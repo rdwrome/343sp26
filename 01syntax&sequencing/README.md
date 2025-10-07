@@ -4,9 +4,9 @@
 
 ## tidal cycles & its flavors
 - tidal cycles: MOST POWERFUL but needs a lot to get going (not covered in this class but you can do it!)
-- minitidal in estuary: less powerful than strudel but you can play with others
+- minitidal in estuary: less powerful than strudel but you can play with others!
 - minitidal in strudel: QUITE powerful but you can't play well with others
-- in all three of these environments there is a way to run hydra
+- with/in all three of these environments there is a way to run hydra
 - [tidal cycles is pattern-based](https://tidalcycles.org/docs/reference/cycles)
 - FYI minitidal in strudel is a js wrapper for tidal cycles; tidal cycles is a haskell wrapper for supercollider (my computer music mother tounge)
 
@@ -29,35 +29,19 @@
 
 `!` = repeat
 
-`"[ ] "` = what to fit inside one pulse within one cycle
+`[]` = what to fit inside one pulse within one cycle
 
-**starter examples**
+`,` = layer these atop one another within one cycle
 
-`s "bd"`
-
-`s "bd hh"`
-
-`s "bd ~ hh"`
-
-`s "bd ~ hh!2"`
-
-`s "[bd*3] ~ hh!2`
-
-**everybody now in solo mode**
-
-### more advanced commands and syntax
-
-`,` = layer these atop one another within one pulse
-
-`/` = play once per cycle specified as integer in the denominator
+'/' = play once per cycle specified as integer in the denominator
 
 `[ | ]` = randomly choose from this array per cycle
 
-`<>` = chose the next one from this list per cycle
+`< >` = chose the next one from this list per cycle
 
-`?` = random silence
+`?` = randomly silence
 
-**more examples**
+**some examples**
 
 `s "[bd sd, hh hh]"`
 
@@ -123,10 +107,6 @@ s "{bd bd bd bd, cp cp hh}"
 `saw`
 
 `isaw`
-
-**eg**
-
-`# pan sine`
 
 ### sound bank indicies
 - see all the current samples with:
@@ -222,6 +202,8 @@ stack(
 - parameters/arguments
 - chained functions
 
+`\\` = comment
+
 `s` = sound
 
 `" "` = what to fit inside one cycle
@@ -230,7 +212,17 @@ stack(
 
 `!` = repeat
 
-`\\` = comment
+`[]` = what to fit inside one pulse within one cycle
+
+`,` = layer these atop one another within one cycle
+
+'/' = play once per cycle specified as integer in the denominator
+
+`[ | ]` = randomly choose from this array per cycle
+
+`< >` = chose the next one from this list per cycle
+
+`?` = randomly silence
 
 **starter examples**
 
@@ -249,32 +241,6 @@ stack(
 - reference
 - sounds
 - (but we'll use `bd sd hh ho hc lt ht mt cp` for now!)
-
-## more advanced mini-tidal commands and [cycles](https://strudel.cc/understand/cycles/)
-
-`?` = randomly silence
-
-`[]` = nest these within one pulse of the cycle
-
-`[ | ]` = randomly choose sample from this array per cycle
-
-`"< >"` = chose the next one from this list per cycle
-
-`,` = layer these atop one another within one cycle
-
-**more examples**
-
-`s ("hh!16?")`
-
-`s "(bd ~ [hh!2]")`
-
-`s ("[bd | hh | sd]!4")`
-
-`s ("<bd hh sd>!4")`
-
-`s ("bd, ~ hh")`
-
-**everybody now!**
 
 ## [Sample Selection with Banks](https://strudel.cc/workshop/first-sounds/)
 
