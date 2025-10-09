@@ -3,11 +3,18 @@
 LMSC-261 & MTEC-111 are prerequisites.
 
 ## Topics
-- minitidal in Strudel
-- hydra in Strudel
-- p5.live
-- from scratch techniques
-- solo av techniques
+- life of livecoding
+- minitidal syntax & drum sequencing in estuary
+- network, sample & synth sequencing in strudel
+- minitidal generative algorithms in strudel
+- research presentations
+- obs
+- hydra
+- p5.js
+- AV roulette 1/2
+- AV roulette 2/2
+- guest
+- final projects
 
 ## Everyday Tools
 

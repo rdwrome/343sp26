@@ -1,4 +1,84 @@
+
 ## percussion patches!
+
+## BNO
+#### change grid **in terminal!!!** with `!presetview twobyfive` to see everyone
+
+### miniitdal comparison
+```
+// tidal cycles
+d1 $ stack[
+  s "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",
+  s "[~ ~ ~ ~] [sd ~ ~ ~] [~ ~ ~ ~] [sd ~ ~ ~] ",
+  s "[hh ~ hh ~] [hh ~ hh ~] [hh ~ ~ ~] [hh ~ hh ~] ",
+  s "[~ ~ ~ ~] [ho ~ ~ ~] [~ ~ ho ~] [~ ~ ~ ~] "
+]
+
+// estuary
+stack[
+  s "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",
+  s "[~ ~ ~ ~] [sd ~ ~ ~] [~ ~ ~ ~] [sd ~ ~ ~] ",
+  s "[hh ~ hh ~] [hh ~ hh ~] [hh ~ ~ ~] [hh ~ hh ~] ",
+  s "[~ ~ ~ ~] [ho ~ ~ ~] [~ ~ ho ~] [~ ~ ~ ~] "
+]
+
+// strudel
+stack(
+  "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",
+  "[~ ~ ~ ~] [sd ~ ~ ~] [~ ~ ~ ~] [sd ~ ~ ~] ",
+  "[hh ~ hh ~] [hh ~ hh ~] [hh ~ ~ ~] [hh ~ hh ~] ",
+  "[~ ~ ~ ~] [ho ~ ~ ~] [~ ~ ho ~] [~ ~ ~ ~] ",
+).s()
+
+```
+
+## [Strudel Tour](https://strudel.cc/)
+- console
+- reference
+
+## minitidal starter pattern commands and [syntax](https://strudel.cc/learn/code/#functions-arguments-and-chaining)
+- functions
+- parameters/arguments
+- chained functions
+
+`\\` = comment
+
+`s` = sound
+
+`" "` = what to fit inside one cycle
+
+`~` = silence
+
+`!` = repeat
+
+`[]` = what to fit inside one pulse within one cycle
+
+`,` = layer these atop one another within one cycle
+
+'/' = play once per cycle specified as integer in the denominator
+
+`[ | ]` = randomly choose from this array per cycle
+
+`< >` = chose the next one from this list per cycle
+
+`?` = randomly silence
+
+**starter examples**
+
+`s ("bd")`
+
+`s ("bd hh")`
+
+`s ("bd ~ hh")`
+
+`s ("bd ~ hh!2")`
+
+**everybody now!**
+
+
+## [CPM/BPM](https://strudel.cc/workshop/first-sounds/)
+
+## [Sample Selection with Banks](https://strudel.cc/workshop/first-sounds/)
 
 ## samples vs synths
 - sawtooth square triangle sine
@@ -51,15 +131,11 @@ $: note("c eb g")`
 ## livecoding evaluation!
 
 `
-_$: n("[0 .. 8]!8/9").scale("C:minor:pentatonic")
-
 // command-/
-//$: s("bd!4").bank('RolandTR909')`
+//$: s("bd!4").bank('RolandTR909')
 
-**everybody now!**
-
-## share a synth sequence
-
+_$: n("[0 .. 8]!8/9").scale("C:minor:pentatonic")
+` 
 ## [effects](https://strudel.cc/learn/effects/)
 
 - gain
@@ -101,9 +177,6 @@ __$: note("F")
 
 ## [sophisticated pattern transformations](https://strudel.cc/workshop/pattern-effects/)
 
-
-- fast, slow
-
 - degradeBy
 
 `s("hh*8").degradeBy(0.2)`
@@ -122,25 +195,11 @@ __$: note("F")
 
 `note("c d e g").palindrome()`
 
-## sophisticated rhythms
-
 - linger
 
 `s("lt ht mt cp, [hh oh]*2").linger("<1 .5 .25 .125>")`
 	
-### what are euclidean rhythms?
--- poly meter? poly rhythm?...euclidean rhythm?
--- https://www.youtube.com/watch?v=bKazVnHh2w4 (@1:55)
-
-- euclid
-
-`note("c3").euclid(3,8)`
-
-## Research Presentation Due Next Week!
-**Research Presentation**
-- 7 min. presentation on a SPECIFIC livecoding topic of your choice (with instructor preapproval!!!)
-- Be SPECIFIC! one artist's creative practice, development of one coding language/tool, one city's algorave scene, one technique, analysis of one particular work
-  - can't be Hydra, SuperCollider, Strudel, TidalCyles, miniTidal (uzu languages)
-- Documentation for submission of presentation: .md bibliography using [MLA format](https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_general_format.html)
-**RIGHT NOW IN CLASS**
-- A three or four sentence .md topic proposal about what you want to do, and why you want to do it.
+### Small assignment for next week! Single Sample Song
+- Create a 1-2 min livecoding set using ONLY ONE SAMPLE.
+- This week and ALWAYS! Document your work in a .md file as outlined in syllabus (what you did, how you did it, creative process, technical process, etc. Can be stream of consciousness but should more or less be in complete sentences).
+- Submit minitidal code and documentation in a single .md file (with the minitidal code embedded) and hand in via GitHub.com + Canvas as outlined in syllabus.
