@@ -4,7 +4,7 @@
 ## BNO
 #### change grid **in terminal!!!** with `!presetview twobyfive` to see everyone
 
-### miniitdal comparison
+### minitidal comparison
 ```
 // tidal cycles
 d1 $ stack[
@@ -16,7 +16,7 @@ d1 $ stack[
 
 // estuary
 stack[
-  s "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",
+  s "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",s
   s "[~ ~ ~ ~] [sd ~ ~ ~] [~ ~ ~ ~] [sd ~ ~ ~] ",
   s "[hh ~ hh ~] [hh ~ hh ~] [hh ~ ~ ~] [hh ~ hh ~] ",
   s "[~ ~ ~ ~] [ho ~ ~ ~] [~ ~ ho ~] [~ ~ ~ ~] "

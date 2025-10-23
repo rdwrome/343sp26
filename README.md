@@ -8,12 +8,13 @@ LMSC-261 & MTEC-111 are prerequisites.
 - network, sample & synth sequencing in strudel
 - minitidal generative algorithms in strudel
 - research presentations
+- audio guest artist
 - obs
 - hydra
 - p5.js
+- visual guest artist
 - AV roulette 1/2
 - AV roulette 2/2
-- guest
 - final projects
 
 ## Everyday Tools
