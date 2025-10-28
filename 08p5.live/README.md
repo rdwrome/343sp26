@@ -1,94 +1,42 @@
-### Accessibility
-- Let your musicians see the screen
-- Don't give someone a seizure
+# [p5.live](https://teddavis.org/p5live/?cc=z212z)
+- remember p5.js?
 
-# [minitidal + hydra in strudel](https://strudel.cc/learn/hydra/)
+### shortcuts
+```
+CTRL + ENTER	softCompile
+CTRL + SHIFT + ENTER	hardCompile
+CTRL + E	editor toggle
+CTRL + N	new sketch
+CTRL + SHIFT + C	clone sketch
+CTRL + A	autocompile toggle
+CTRL + ,	settings toggle
+CTRL + R	references toggle
+CTRL + B	chalkboard toggle
+CTRL + T	tidy code
+CTRL + SPACE	autocomplete
+CTRL + +	increase fontsize
+CTRL + -	decrease fontsize
+CTRL + S	save png [ + code ]
+CTRL + 1, 2, 3...0	jump to first 10 sketches
+CTRL + SHIFT + ⇡⇣	jump to previous/next sketch
+CTRL + SHIFT + DELETE	delete current sketch
+```
 
-# [video synth basics](https://hydra.ojack.xyz/docs/docs/learning/video-synth-basics/)
-# [functions](https://hydra.ojack.xyz/functions)
+### sketches
+	- typo
+	- math
+	- [shaders](https://en.wikipedia.org/wiki/Shader)
+	- [webgl](https://en.wikipedia.org/wiki/WebGL)
+	- hydra
+	- hy5
 
-## sources
-	- noise
-	- voronoi
-	- osc
-	- shape
-	- gradient
-	- src
-	- solid
-	
-## geometry
-	- rotate
-	- scale
-	- pixelate
-	- repeat
-	- repeatX
-	- repeatY
-	- kaleid
-	- scroll
-	- scrollX
-	- scrollY
-	
-## color
-	- posterize
-	- shift
-	- invert
-	- contrast
-	- brightness
-	- luma
-	- thresh
-	- color
-	- saturate
-	- hue
-	- colorama
-	- sum
-	- rgba
+### recoding
 
-## eternal sources
-	- initCam
-	- initImage
-	- initVideo
-	- init
-	- initStream
-	- initScreen
-	
-## blend
-	- add
-	- sub
-	- layer
-	- blend
-	- mult
-	- diff
-	
-## modulate
-	- modulateRepeat
-	- modulateRepeatX
-	- modulateRepeatY
-	- modulateKaleid
-	- modulateScrollX
-	- modulateScrollY
-	- modulate
-	- modulateScale
-	- modulatePixelate
-	- modulateRotate
-	- modulateHue
-	
-## synth settings
-	- render
-	- update
-	- setResolution
-	- hush
-	- setFunction
-	- speed
-	- bpm
-	- width
-	- height
-	- time
-	- mouse
+### cocoding
+- The code is synced while the visuals are rendered locally.
 
-# [Examples](https://hydra.ojack.xyz)
-- roll through examples
-- change parameters
-- show and tell
-- code reuse!
 
-## [so you don't want to show your code...](https://www.youtube.com/watch?v=b9VS7Q86T-Y&list=PL82ekYXUXbcSDipIPs6Df1YpG6s68WJRu&index=13&t=2s)
+## assignment
+- working with 1 or 2 others, create a 2 min live 'cocoded' p5.live performance
+- chose sound to play while you're doing it
+- documentation file due at 11am
