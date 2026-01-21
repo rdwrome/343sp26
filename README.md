@@ -11,11 +11,10 @@ LMSC-261 & MTEC-111 are prerequisites.
 - audio guest artist
 - obs
 - hydra
-- p5.js
+- p5.js & Tidal Cycles for real
 - visual guest artist
-- AV roulette 1/2
-- AV roulette 2/2
-- final projects
+- AV roulette 
+- solo AV 
 
 ## Everyday Tools
 
@@ -39,20 +38,16 @@ Solo AV Final | 20%
 
 ### ALL DUE DATES ARE UNDER THE "ASSIGNMENTS" SECTION IN CANVAS
 
-### Steps to submit assignments via GitHub+Canvas
-  1. Make a subfolder in *your* GitHub repository (not the class respository!) named after the assignment (i.e. {yourusername}/{course}/{assignment}, etc.)
-  2. Commit all parts of your assignment (i.e. code+documentation file) into that subfolder
-  3. Submit the link **to that folder** in the appropriate Canvas assignment by the deadline
-
 ### Documentation File outline 
-  - The documentation file (**always *in* MarkDown, saved as a .md file**) must have the following in mostly complete sentences!:
+  - The documentation file (**always *in* MarkDown, saved as a .md file**) must have the following in complete sentences!:
+ 	- YOUR CODE PROPERLY FORMATTED 
     - what you did...
     - how you did it...
     - the problems you faced (ABDYDB: always be documenting your debugging!)...
     - how you overcame them...
     - *what code you used from others/elsewhere*
       - where to find that code (specific links!!!)
-      - other folks' public GitHub repositories, [Stack OverFlow](https://stackoverflow.com/), programming language forums are the best places to go for help most of the time
+      - other folks' public GitHub repositories and programming language forums are the best places to go for help most of the time
       - *do not* submit paywalled links
       - *if* you submit YouTube links (which is discouraged), they must have TIME STAMPS
 	- Correctly document all your debugging, especially if you code ultimately does not run as intended. I will take points off for code that does not run correctly, but will still give partial credit if it is well-documented.
@@ -67,7 +62,7 @@ Solo AV Final | 20%
 - Email: [rrome@berklee.edu](rrome@berklee.edu)
 - Phone: 336.355.1993
 - Office Hours:
-	- Tuesdays 12-1pm EST; Thursday 11am-12pm EST
+	- Mondays 1-3pm EST
 	- Meetings will *always* take place in person at 1126 Boylston Room 208 (never on zoom).
 	- Walk-ins welcome, but preference is given to those who make [appointments here.](https://calendar.app.google/y89Au3KaaYXY5vJ56)
 	- If you are not available during my office hour, you are welcome to use Berklee Google Calendar (be signed into your own account and search for "r.d.w.rome") to look at my whole calendar and make an appointment that way. It is up-to-date; no need to email me. Just drop the appointment in my calendar.
