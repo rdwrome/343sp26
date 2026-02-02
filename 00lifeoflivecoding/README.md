@@ -51,8 +51,6 @@
 - Big Picture (audio then visual, then both)
 - Nitty Gritty (the syllabus)
 
-## [Where we're going to?](https://www.youtube.com/watch?v=qZ8xDEMLj7c&t=5s)
-
 ### THE TWO GitHub REPOSITORIES OF THIS CLASS
 - One to share my materials with you **(343)**
 - One to share your materials with me **(lc)**
@@ -60,7 +58,7 @@
 ## For next week:
   - Clone the **343** Repository
   - Setup your **lc** Repository
-  - [The Discord](NEWLINKHERERACHEL)
+  - [The Discord](https://discord.gg/p3mxpjY3)
   - Reading: ["LiveCoding: A User's Manual" pp.1-8 (chapter one *before* "navigating this book")](https://static.livecodingbook.toplap.org/books/livecoding.pdf)
   - Writing: a .md file in your lc repository outlining *two* things that were new to you/surprised to you in the reading and *two* things that were not new to you/didn't surprise you in the reading.
   - Hand it in via Github.com+Canvas as outlined in the syllabus!

@@ -2,12 +2,12 @@
 
 ### Reading?
 
-## tidal cycles & its flavors
-- tidal cycles: MOST POWERFUL but needs a lot to get going (not covered in this class but you can do it!)
+## tidal cycles & its dialects
+- [tidal cycles is pattern-based](https://tidalcycles.org/docs/reference/cycles)
+- tidal cycles: MOST POWERFUL but needs a lot to get going 
 - minitidal in estuary: less powerful than strudel but you can play with others!
 - minitidal in strudel: QUITE powerful but you can't play well with others
 - with/in all three of these environments there is a way to run hydra
-- [tidal cycles is pattern-based](https://tidalcycles.org/docs/reference/cycles)
 - FYI minitidal in strudel is a js wrapper for tidal cycles; tidal cycles is a haskell wrapper for supercollider (my computer music mother tounge)
 
 ## [estuary](https://estuary.mcmaster.ca/)
