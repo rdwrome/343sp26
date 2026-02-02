@@ -6,14 +6,6 @@
 
 ### minitidal comparison
 ```
-// tidal cycles
-d1 $ stack[
-  s "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",
-  s "[~ ~ ~ ~] [sd ~ ~ ~] [~ ~ ~ ~] [sd ~ ~ ~] ",
-  s "[hh ~ hh ~] [hh ~ hh ~] [hh ~ ~ ~] [hh ~ hh ~] ",
-  s "[~ ~ ~ ~] [ho ~ ~ ~] [~ ~ ho ~] [~ ~ ~ ~] "
-]
-
 // estuary
 stack[
   s "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",s
@@ -29,6 +21,14 @@ stack(
   "[hh ~ hh ~] [hh ~ hh ~] [hh ~ ~ ~] [hh ~ hh ~] ",
   "[~ ~ ~ ~] [ho ~ ~ ~] [~ ~ ho ~] [~ ~ ~ ~] ",
 ).s()
+
+// tidal cycles
+d1 $ stack[
+  s "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",
+  s "[~ ~ ~ ~] [sd ~ ~ ~] [~ ~ ~ ~] [sd ~ ~ ~] ",
+  s "[hh ~ hh ~] [hh ~ hh ~] [hh ~ ~ ~] [hh ~ hh ~] ",
+  s "[~ ~ ~ ~] [ho ~ ~ ~] [~ ~ ho ~] [~ ~ ~ ~] "
+]
 
 ```
 
@@ -198,6 +198,17 @@ __$: note("F")
 - linger
 
 `s("lt ht mt cp, [hh oh]*2").linger("<1 .5 .25 .125>")`
+	
+## [visualizers](https://strudel.cc/learn/visual-feedback/)
+
+- piano roll
+
+`note("c2 a2 eb2")
+.euclid(5,8)
+.s('sawtooth')
+.lpenv(4).lpf(300)
+.pianoroll()`
+
 	
 ### Small assignment for next week! Single Sample Song
 - Create a 1-2 min livecoding set using ONLY ONE SAMPLE.

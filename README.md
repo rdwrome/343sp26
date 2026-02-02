@@ -8,10 +8,9 @@ LMSC-261 & MTEC-111 are prerequisites.
 - network, sample & synth sequencing in strudel
 - minitidal generative algorithms in strudel
 - research presentations
+- Tidal Cycles
 - obs
 - hydra
-- p5.js 
-- Tidal Cycles
 - AV roulette 
 - solo AV 
 
@@ -61,7 +60,7 @@ Solo AV Final | 20%
 - Email: [rrome@berklee.edu](rrome@berklee.edu)
 - Phone: 336.355.1993
 - Office Hours:
-	- Mondays 1-3pm EST
+	- Mondays 2-4pm EST
 	- Meetings will *always* take place in person at 1126 Boylston Room 208 (never on zoom).
 	- Walk-ins welcome, but preference is given to those who make [appointments here.](https://calendar.app.google/y89Au3KaaYXY5vJ56)
 	- If you are not available during my office hour, you are welcome to use Berklee Google Calendar (be signed into your own account and search for "r.d.w.rome") to look at my whole calendar and make an appointment that way. It is up-to-date; no need to email me. Just drop the appointment in my calendar.
