@@ -4,11 +4,11 @@
 
 ## tidal cycles & its dialects
 - [tidal cycles is pattern-based](https://tidalcycles.org/docs/reference/cycles)
+- FYI tidal cycles is a haskell wrapper for supercollider (my computer music mother tounge)
 - tidal cycles: MOST POWERFUL but needs a lot to get going 
 - minitidal in estuary: less powerful than strudel but you can play with others!
 - minitidal in strudel: QUITE powerful but you can't play well with others
 - with/in all three of these environments there is a way to run hydra
-- FYI minitidal in strudel is a js wrapper for tidal cycles; tidal cycles is a haskell wrapper for supercollider (my computer music mother tounge)
 
 ## [estuary](https://estuary.mcmaster.ca/)
 - What's great
@@ -50,27 +50,13 @@
 
 `s "bd sd/2 hh/3"`
 
-`s "[bd | sd | hh]*3"`
+`s "[bd | sd | hh]!3"`
 
-`s "<bd sd hh>*3"`
+`s "<bd sd hh>!3"`
 
 `s "hh!16?"`
 
 **everybody now in solo mode**
-
-
-### polyrhythms & euclidean rhythms
-
-`{ , }` = this pattern against this pattern per cycle
-
-`( , )` = spread this many pulses over this many pulses per cycle
-
-
-**even more examples**
-
-`s "{bd!4, cp cp hh}"`
-
-`s "bd(7,12)"`
 
 ### stacks
 
@@ -80,8 +66,8 @@ s " "]`
 **stacks of examples**
 
 `stack [
-s "{bd bd bd bd, cp cp hh}"
-s "bd(7,12)",
+s "{bd bd bd bd, cp cp hh}",
+s "bd(7,12)"
 ]`
 
 **everybody now in solo mode**
@@ -112,7 +98,8 @@ s "bd(7,12)",
 
 ### sound bank indicies
 - see all the current samples with:
-`!localview audiomap`
+`!localview audiomap` HOW DO WE GET OUT???
+
 - `n` for iNdex (unpitched samples) or Note (samples that are or can be pitched) (more on this later)
 - if you give a certain number of events and a different number to use for those events from the index, it will try and even it out.
 - n for iNdex goes **after** sound; n for Note goes **before** sounds
@@ -121,9 +108,9 @@ s "bd(7,12)",
 
 `s "drum:0 drum:1 drum:2 drum:3"` = play drum sample with first index, then second, then third, etc or
 
-`s "drum*4" # n "0 1 2 3"` = sounds same
+`s "drum!4" # n "0 1 2 3"` = sounds same
 
-`s "drum*4" # n "0 1 2"` = not enough values but evens itself out
+`s "drum!4" # n "0 1 2"` = not enough values but evens itself out
 
 ### notes & scales as clunky sequencers
 `n "0 2 4 5" # s "moog"` = notes with numbers
@@ -153,16 +140,14 @@ s "bd(7,12)",
 
 ### time
 
-`slow 2 $ note "c'maj7 f'maj7" # s "moog"` = halftime
+```slow 2 $ note "c'maj7 f'maj7" # s "moog"``` = halftime
 
 `fast 2 $ note "c'maj7 f'maj7" # s "moog"`= doubletime
 
 `every 3 (fast 2) $ note "c'maj7 f'maj7" # s "moog"` = every third cycle, doubletime
 
-`every 2 (rev) $ s "[bd*3] ~ hh*2"` = every second cycle, reverse the pattern
-
 #### metatime **in estuary terminal!!!**
-`!setbpm 90` = change the bpm of bno
+`!setbpm 90` = change the bpm 
 
 ### Small assignment for next week! Percussion Patch
 - Make a minitidal percussion patch (only using `bd sd hh lt cp`) you're proud of.
