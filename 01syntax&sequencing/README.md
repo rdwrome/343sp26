@@ -152,4 +152,4 @@ s "bd(7,12)"
 ### Small assignment for next week! Percussion Patch
 - Make a minitidal percussion patch (only using `bd sd hh lt cp`) you're proud of.
 - This week and ALWAYS! Document your work in a .md file as outlined in syllabus (what you did, how you did it, creative process, technical process, etc. Can be stream of consciousness but should more or less be in complete sentences).
-- Submit percussion patch and documentation in a single .md file (with the minitidal code embedded) and hand in via GitHub.com + Canvas as outlined in syllabus.
+- Submit percussion patch and documentation in a single .md file (with the minitidal code embedded correctly) and hand in via GitHub.com + Canvas as outlined in syllabus.

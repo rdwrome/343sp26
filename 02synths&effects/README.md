@@ -41,8 +41,6 @@ d1 $ stack[
 - parameters/arguments
 - chained functions
 
-`\\` = comment
-
 `s` = sound
 
 `" "` = what to fit inside one cycle
@@ -63,31 +61,32 @@ d1 $ stack[
 
 `?` = randomly silence
 
-**starter examples**
-
-`s ("bd")`
-
-`s ("bd hh")`
-
-`s ("bd ~ hh")`
-
-`s ("bd ~ hh!2")`
-
-**everybody now!**
-
+## [Sample Selection with Banks](https://strudel.cc/workshop/first-sounds/)
+```stack(
+  "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",
+  "[~ ~ ~ ~] [sd ~ ~ ~] [~ ~ ~ ~] [sd ~ ~ ~] ",
+  "[hh ~ hh ~] [hh ~ hh ~] [hh ~ ~ ~] [hh ~ hh ~] ",
+  "[~ ~ ~ ~] [ho ~ ~ ~] [~ ~ ho ~] [~ ~ ~ ~] ",
+).s().bank("RolandTR909")```
 
 ## [CPM/BPM](https://strudel.cc/workshop/first-sounds/)
-
-## [Sample Selection with Banks](https://strudel.cc/workshop/first-sounds/)
+```
+setcpm(90/4)
+stack(
+  "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",
+  "[~ ~ ~ ~] [sd ~ ~ ~] [~ ~ ~ ~] [sd ~ ~ ~] ",
+  "[hh ~ hh ~] [hh ~ hh ~] [hh ~ ~ ~] [hh ~ hh ~] ",
+  "[~ ~ ~ ~] [ho ~ ~ ~] [~ ~ ho ~] [~ ~ ~ ~] ",
+).s().bank("RolandTR909")```
 
 ## samples vs synths
 - sawtooth square triangle sine
 
 ### note vs n
-- With Samples: note means 'take this one sample but slow/speed it up to pitch it down and up and play the pitches as notes'
+- With Samples: note means 'take this one sample but slow/speed it up to pitch it down and up and play the pitches as notes' [NOT RECOMMENDED FOR YOU FINE MUSICIANS]
 - With Samples: n means iNdex, so it was which sample from the index you wanted to play
 - With Synths: note workes best with pitch names
-- With Synths: n works best with scales
+- With Synths: n works best with scale degrees
 
 ## [noted](https://strudel.cc/workshop/first-notes/)
 
@@ -213,4 +212,4 @@ __$: note("F")
 ### Small assignment for next week! Single Sample Song
 - Create a 1-2 min livecoding set using ONLY ONE SAMPLE.
 - This week and ALWAYS! Document your work in a .md file as outlined in syllabus (what you did, how you did it, creative process, technical process, etc. Can be stream of consciousness but should more or less be in complete sentences).
-- Submit minitidal code and documentation in a single .md file (with the minitidal code embedded) and hand in via GitHub.com + Canvas as outlined in syllabus.
+- Submit minitidal code and documentation in a single .md file (with the minitidal code embedded correctly) and hand in via GitHub.com + Canvas as outlined in syllabus.

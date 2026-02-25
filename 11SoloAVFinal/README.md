@@ -1,4 +1,4 @@
 **Large Project**
-- 5ish min. Solo Tidal Cycles Set!
+- 5-7 min. Solo AV Set!
 - Documentation for submission: code, documentation file
-- Due IN-CLASS December 5
+- Due IN-CLASS April 27

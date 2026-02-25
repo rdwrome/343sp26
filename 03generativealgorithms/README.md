@@ -14,7 +14,7 @@
 
 ## [Yes, you may have your own samples & sampler effects](https://strudel.cc/learn/samples/#loading-custom-samples)
 
-## Research Presentation Due Next Week!
+## Research Presentation!
 **Research Presentation**
 - 7 min. presentation on a SPECIFIC livecoding topic of your choice (with instructor preapproval!!!)
 - Be SPECIFIC! one artist's creative practice, development of one coding language/tool, one city's algorave scene, one technique, analysis of one particular work

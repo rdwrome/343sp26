@@ -162,10 +162,8 @@ osc(10,0,1).hue(0.5).layer(osc(10,0,1).mask(shape(4,0.5,0.001))).out()
 
 ## [so you don't want to show your code...](https://www.youtube.com/watch?v=b9VS7Q86T-Y&list=PL82ekYXUXbcSDipIPs6Df1YpG6s68WJRu&index=13&t=2s)
 
-# estuary
+## yes: estuary, strudel, pulsar but, best of all...
 
-# [strudel](https://strudel.cc/learn/hydra/)
-
-# pulsar
-
-# flok.cc
+# [flok.cc](https://flok.cc/)
+- command icon in upper right corner: add pane
+- option>return to execute
