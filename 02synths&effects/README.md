@@ -1,14 +1,11 @@
 
 ## percussion patches!
 
-## BNO
-#### change grid **in terminal!!!** with `!presetview twobyfive` to see everyone
-
 ### minitidal comparison
 ```
 // estuary
 stack[
-  s "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",s
+  s "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",
   s "[~ ~ ~ ~] [sd ~ ~ ~] [~ ~ ~ ~] [sd ~ ~ ~] ",
   s "[hh ~ hh ~] [hh ~ hh ~] [hh ~ ~ ~] [hh ~ hh ~] ",
   s "[~ ~ ~ ~] [ho ~ ~ ~] [~ ~ ho ~] [~ ~ ~ ~] "
@@ -61,18 +58,18 @@ d1 $ stack[
 
 `?` = randomly silence
 
-## [Sample Selection with Banks](https://strudel.cc/workshop/first-sounds/)
-```stack(
+## [CPM/BPM](https://strudel.cc/workshop/first-sounds/)
+```
+setcpm(90/4)
+stack(
   "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",
   "[~ ~ ~ ~] [sd ~ ~ ~] [~ ~ ~ ~] [sd ~ ~ ~] ",
   "[hh ~ hh ~] [hh ~ hh ~] [hh ~ ~ ~] [hh ~ hh ~] ",
   "[~ ~ ~ ~] [ho ~ ~ ~] [~ ~ ho ~] [~ ~ ~ ~] ",
 ).s().bank("RolandTR909")```
 
-## [CPM/BPM](https://strudel.cc/workshop/first-sounds/)
-```
-setcpm(90/4)
-stack(
+## [Sample Selection with Banks](https://strudel.cc/workshop/first-sounds/)
+```stack(
   "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",
   "[~ ~ ~ ~] [sd ~ ~ ~] [~ ~ ~ ~] [sd ~ ~ ~] ",
   "[hh ~ hh ~] [hh ~ hh ~] [hh ~ ~ ~] [hh ~ hh ~] ",
@@ -92,7 +89,7 @@ stack(
 
 - define by pitch name
 
-`note ("c3").sound("sawtooth")`
+`note ("c").sound("sawtooth")`
 
 - sequence away
 
